@@ -3,45 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Services - Eva Göksel</title>
+  <title>Eva Göksel - Drama Pedagogue & Teacher Trainer</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="container">
 
-  <!-- Services Section (English) -->
-  <section class="services">
-    <h1>Our Services</h1>
-    <ul>
-      <li><strong>Language Workshops:</strong> Drama-based courses in English, French, German, and Swedish.</li>
-      <li><strong>Teacher Training:</strong> Interactive sessions on drama pedagogy, listening, and storytelling.</li>
-      <li><strong>Corporate Workshops:</strong> Tailored programs for cultural institutions and schools.</li>
-      <li><strong>Curriculum Development:</strong> Custom-written course texts and digital content.</li>
-    </ul>
-  </section>
+    <!-- Language Selector -->
+    <div class="language-selector">
+      <select onchange="window.location.href=this.value;">
+        <option selected value="index.html">English</option>
+        <option value="index-sv.html">Svenska</option>
+      </select>
+    </div>
+    
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  
+    <!-- Services Section (English) -->
+    <section class="services">
+      <h1>Our Services</h1>
+      <ul>
+        <li><strong>Language Workshops:</strong> Drama-based courses in English, French, German, and Swedish.</li>
+        <li><strong>Teacher Training:</strong> Interactive sessions on drama pedagogy, listening, and storytelling.</li>
+        <li><strong>Corporate Workshops:</strong> Tailored programs for cultural institutions and schools.</li>
+        <li><strong>Curriculum Development:</strong> Custom-written course texts and digital content.</li>
+      </ul>
+    </section>
+  
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Eva Göksel. All rights reserved.</p>
+    </footer>
 
-  <!-- Services Section (Swedish) -->
-  <section class="services">
-    <h1>Våra Tjänster</h1>
-    <ul>
-      <li><strong>Språkworkshops:</strong> Drama-baserade kurser i engelska, franska, tyska och svenska.</li>
-      <li><strong>Lärarutbildning:</strong> Interaktiva sessioner om dramapedagogik,lyssnande, och berättande.</li>
-      <li><strong>Företagsworkshops:</strong> Skräddarsydda program för kulturinstitutioner och skolor.</li>
-      <li><strong>Utbildningsmaterial:</strong> Anpassade kursmaterial och digitalt innehåll.</li>
-    </ul>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Eva Göksel. All rights reserved.</p>
-  </footer>
+  </div>
 </body>
 </html>
