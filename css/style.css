@@ -7,6 +7,12 @@ body {
   color: #333;
 }
 
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 nav {
   background-color: #333;
   color: #fff;
@@ -35,7 +41,7 @@ nav a {
   position: relative;
   text-align: center;
   color: #fff;
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
