@@ -47,16 +47,6 @@ nav a {
   justify-content: center;
 }
 
-.hero-left {
-  position: relative;
-  text-align: left;
-  color: #fff;
-  height: 70vh;
-  display: flex;
-  align-items: left;
-  justify-content: left;
-}
-
 .hero img {
   position: absolute;
   width: 100%;
