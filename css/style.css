@@ -47,6 +47,16 @@ nav a {
   justify-content: center;
 }
 
+.hero-left {
+  position: relative;
+  text-align: left;
+  color: #fff;
+  height: 70vh;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
 .hero img {
   position: absolute;
   width: 100%;
@@ -68,6 +78,10 @@ nav a {
 }
 
 .hero p {
+  font-size: 1.2rem;
+}
+
+.hero ul {
   font-size: 1.2rem;
 }
 
